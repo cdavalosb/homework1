@@ -1,0 +1,150 @@
+body {
+	background: #4aaaa5;
+	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+h1{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -50px;
+	background-image: url(../images/vintage-concrete.png);
+	background-repeat: repeat;
+}
+
+.imglink{
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+}
+
+.pflink{
+	width: 200px;
+	margin: 20px;
+}
+
+.centerimg{
+	margin: 0 auto;
+	width: 500px;
+}
+
+.textish{
+	margin: 25px;
+}
+
+#topBar{
+	min-width: 750px;
+	width: 100%;
+	height: 58px;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border: 1px solid #ccc;
+	display: block;
+}
+
+#nameBar{
+	margin-left: 15%;
+	float: left;
+	padding: 20px;
+	background: #4aaaa5;
+	color: #fff;
+}
+
+#aboutLink{
+	float: right;
+	padding: 20px;
+
+}
+
+#portLink{
+	float: right;
+	padding: 20px;
+
+}
+
+#contactLink{
+	float: right;
+	padding: 20px;
+	margin-right: 15%;
+}
+
+#content{
+	width: 960px;
+	min-height: 340px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#profpic{
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+}
+
+#cont{
+	height: 100%;
+	width: 100%;
+}
+
+.bx{
+	width: 590px;
+}
+
+#messagebx{
+	height: 200px;
+}
+
+#section{
+	float: left;
+	width: 650px;
+	min-height: 300px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+#connect{
+	float: right;
+	width: 270px;
+	min-height: 100px;
+	background: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+.footer, .push{
+	height: 40px;
+}
+.push{
+	margin: 20px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+footer{
+	background: white;
+	min-width: 750px;
+	text-align: center;
+	padding: 30px;
+	color: #4aaaa5;
+}
